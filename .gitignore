@@ -1,0 +1,114 @@
+# ==============================================================================
+# .gitignore - San Francisco Restaurant Hygiene & Safety Analytics Portfolio
+# Standard Data Analytics / BI Project Git Hygiene
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. TEMPORARY & LOCK FILES (MICROSOFT OFFICE & POWER BI)
+# Jangan biarkan file lock sementara Office ter-commit ke GitHub saat PPTX/PBIX dibuka!
+# ------------------------------------------------------------------------------
+~$*.pptx
+~$*.docx
+~$*.xlsx
+~$*.pbix
+*.tmp
+*.bak
+*.swp
+
+# ------------------------------------------------------------------------------
+# 2. PYTHON & ENVIRONMENT ARTIFACTS
+# File cache bytecode dan virtual environment lokal
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 3. JUPYTER NOTEBOOK CHECKPOINTS
+# Cache autosave Jupyter yang mengotori riwayat commit
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert/
+
+# ------------------------------------------------------------------------------
+# 4. OPERATING SYSTEM ARTIFACTS
+# File cache sistem operasi (Windows & macOS)
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------------------------------------------------------
+# 5. IDE & CODE EDITOR SETTINGS
+# Konfigurasi personal editor (VS Code, JetBrains, dll.)
+# ------------------------------------------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------------------------------------------
+# 6. SCRATCH, LOGS & TESTING DRAFTS
+# Folder sementara atau file uji coba sekali pakai
+# ------------------------------------------------------------------------------
+scratch/
+temp/
+tmp/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------------------------------------------------------
+# 7. SENSITIVE CREDENTIALS & SECRETS
+# Menjaga keamanan API key, kredensial database, dan konfigurasi rahasia
+# ------------------------------------------------------------------------------
+*.key
+*.pem
+*.cert
+secrets.json
+credentials.json
+config.private.json
+
+# ------------------------------------------------------------------------------
+# 8. LARGE DATABASE TEMPORARY / WAL FILES
+# File rollback journal SQLite saat query sedang dieksekusi
+# ------------------------------------------------------------------------------
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+
+# ------------------------------------------------------------------------------
+# 9. REDUNDANT DUPLICATE RAW FILES
+# Cegah duplikasi file data mentah di luar folder data/raw
+# ------------------------------------------------------------------------------
+data/Restaurant_Scores_-_LIVES_Standard.csv
+data/Shapefiles (2)/
+
