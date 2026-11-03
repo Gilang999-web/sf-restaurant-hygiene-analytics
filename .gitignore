@@ -112,3 +112,12 @@ config.private.json
 data/Restaurant_Scores_-_LIVES_Standard.csv
 data/Shapefiles (2)/
 
+# ------------------------------------------------------------------------------
+# 10. INTERNAL WORKING NOTES & DRAFTS
+# Catatan kerja dan referensi belajar internal (tidak untuk publik)
+# ------------------------------------------------------------------------------
+tentang_dataset.md
+kesimpulan.md
+alur_kerja_data_analyst.md
+
+

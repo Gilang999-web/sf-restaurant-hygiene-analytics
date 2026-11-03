@@ -91,7 +91,6 @@ flowchart LR
 │   └── 02_eda_and_insights.ipynb # Eksplorasi statistik visual dan korelasi
 ├── reports/
 │   ├── figures/                # 8 Visualisasi chart analitis resolusi tinggi
-│   ├── kesimpulan.md           # Dokumentasi komprehensif latar belakang dan Q&A
 │   ├── Storytelling_...pptx    # Slide presentasi eksekutif (15 slide + speaker notes)
 │   └── Storytelling_...pdf     # Versi PDF siap cetak / kirim
 ├── scripts/                    # Script otomatisasi Python (pembersihan data dan generator slide)
